@@ -1,26 +1,33 @@
-# Kartun-Islami-Anak
-Aplikasi Kartun Islami untuk Doa Harian Anak 
-Kodular_KartunIslami_Package/
-├─ assets/
-│   ├─ images/
-│   │   ├─ doa_1.png
-│   │   ├─ doa_2.png
-│   │   ├─ doa_3.png
-│   │   ├─ doa_4.png
-│   │   ├─ doa_5.png
-│   │   ├─ doa_6.png
-│   │   ├─ doa_7.png
-│   │   ├─ doa_8.png
-│   │   ├─ doa_9.png
-│   │   └─ doa_10.png
-│   ├─ icon_512.png
-│   ├─ feature_graphic.png
-│   └─ thumb.png
-└─ assets/
-   └─ audio/
-       ├─ doa_1.mp3
-       ├─ doa_2.mp3
-       ├─ ...
-       └─ doa_10.mp3
-README.txt
-preview.html (opsional)
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kartun Islami Anak</title>
+</head>
+<body style="text-align:center; font-family: Arial; background:#f6fff6;">
+
+    <h1 style="color:#228022; margin-top:25px;">
+        KARTUN ISLAMI ANAK 🌙✨
+    </h1>
+    <p style="font-size:18px;">
+        Belajar Islam dengan Ceria dan Menyenangkan 💚
+    </p>
+
+    <!-- 🎬 VIDEO -->
+    <div style="margin-top:25px;">
+        <iframe width="360" height="215"
+            src="https://www.youtube.com/embed/bN5AXpOAimY"
+            title="Kartun Islami Anak"
+            frameborder="0"
+            allowfullscreen>
+        </iframe>
+    </div>
+
+    <p style="font-size:16px; margin-top:15px;">
+        Yuk tonton kartun islami untuk adik-adik muslim 😇
+    </p>
+
+</body>
+</html>
