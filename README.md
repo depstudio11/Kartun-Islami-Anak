@@ -1,33 +1,43 @@
+# 🌙✨ KARTUN ISLAMI ANAK ✨🌙
 
-<!DOCTYPE html>
-<html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kartun Islami Anak</title>
-</head>
-<body style="text-align:center; font-family: Arial; background:#f6fff6;">
+Selamat datang di **Kartun Islami Anak** 💚  
+Website pembelajaran Islam yang dibuat khusus agar anak-anak belajar dengan **ceria, positif dan menyenangkan** 🌱
 
-    <h1 style="color:#228022; margin-top:25px;">
-        KARTUN ISLAMI ANAK 🌙✨
-    </h1>
-    <p style="font-size:18px;">
-        Belajar Islam dengan Ceria dan Menyenangkan 💚
-    </p>
+---
 
-    <!-- 🎬 VIDEO -->
-    <div style="margin-top:25px;">
-        <iframe width="360" height="215"
-            src="https://www.youtube.com/embed/bN5AXpOAimY"
-            title="Kartun Islami Anak"
-            frameborder="0"
-            allowfullscreen>
-        </iframe>
-    </div>
+## 🎬 Tentang Website
+Website ini berisi **video kartun Islami edukatif** untuk adik-adik muslim:
+- Belajar akhlak anak muslim 🤝
+- Doa sehari-hari 🙏
+- Lagu-lagu islami 🎶
+- Kisah teladan dari Nabi dan sahabat ﷺ
 
-    <p style="font-size:16px; margin-top:15px;">
-        Yuk tonton kartun islami untuk adik-adik muslim 😇
-    </p>
+👉 Semua video tampil **langsung di halaman website**, nyaman dan aman untuk anak-anak.
 
-</body>
-</html>
+---
+
+## 🌍 Kunjungi Situsnya
+Klik link di bawah ini untuk menonton kartunnya ⬇  
+🔗 **https://depstudio11.github.io/Kartun-Islami-Anak/**
+
+---
+
+## 💚 Tujuan Kami
+Membantu anak-anak muslim:
+- Mengenal ajaran Islam sejak dini
+- Cinta Al-Qur'an dan Rasulullah ﷺ
+- Belajar adab dan akhlak dengan cara **gembira dan aktif**
+
+---
+
+## 📩 Dukungan & Saran
+Punya saran judul video atau kartun islami lain?  
+Silakan kirim pesan kapan saja — kami akan senang menambahkannya 🌟
+
+---
+
+### 🤲 Semoga website ini menjadi amal jariyah
+*"Ilmu yang bermanfaat akan terus mengalir pahalanya."*
+
+Terima kasih telah mengunjungi 🌙  
+💚 **Semoga anak-anak muslim tumbuh menjadi generasi yang baik dan berakhlak mulia.**
