@@ -1,3 +1,18 @@
 apply plugin: 'com.android.application'
-android { compileSdk 33 defaultConfig { applicationId "com.atep.kartunislamianak" minSdk 21 targetSdk 33 versionCode 1 versionName "1.0" } buildTypes { release { minifyEnabled false } } }
+android { compileSdk 33 defaultConfig { applicationId "com.atep.kartunislamianak" minSdk 21 targetSdk 33 versionCode 1 versionName "1.0" } buildTypes { release { minifyEnabled false } } }<div class="bola"></div>
+
+<style>
+.bola {
+  width: 50px;
+  height: 50px;
+  background: red;
+  border-radius: 50%;
+  animation: lompat 1s infinite;
+}
+@keyframes lompat {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-40px); }
+  100% { transform: translateY(0px); }
+}
+</style>
 dependencies { implementation 'androidx.appcompat:appcompat:1.6.1' implementation 'com.google.android.material:material:1.9.0' implementation 'com.google.code.gson:gson:2.10.1' implementation 'com.google.android.gms:play-services-ads:22.1.0' }
