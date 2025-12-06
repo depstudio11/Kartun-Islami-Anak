@@ -2,126 +2,25 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Kartun Islami Anak — Episode 1</title>
-<style>
-  :root{
-    --bg:#f0fbf6; --ground:#b3e6c1; --accent:#ff8a65; --text:#0b3b2c;
-  }
-  *{box-sizing:border-box}
-  body{margin:0;font-family:Inter, Arial, sans-serif;background:var(--bg);color:var(--text)}
-  .stage{max-width:900px;margin:30px auto;padding:20px;text-align:center}
-  header{font-size:28px;font-weight:700;color:#0b6b4c}
-  .screen{position:relative;background:linear-gradient(#dfffe8,#c7f0db);border-radius:18px;padding:24px;margin-top:18px;box-shadow:0 8px 20px rgba(11,59,44,0.12)}
-  .ground{height:60px;background:var(--ground);border-radius:12px;margin-top:12px;position:relative}
-  /* character */
-  .kid{position:relative;display:inline-block; margin-top:6px}
-  .head{width:92px;height:92px;background:#fff2d9;border-radius:50%;border:6px solid #ffe3b8;position:relative;margin:0 auto;box-shadow:0 6px 0 rgba(0,0,0,0.04)}
-  .eye{width:10px;height:10px;background:#0b3b2c;border-radius:50%;position:absolute;top:34px}
-  .eye.left{left:24px} .eye.right{right:24px}
-  .smile{width:44px;height:22px;border-radius:0 0 40px 40px;border-bottom:6px solid #0b3b2c;position:absolute;left:50%;transform:translateX(-50%);bottom:14px}
-  .body{width:120px;height:76px;background:linear-gradient(#ffecd6,#ffd8b8);border-radius:18px;margin:-10px auto 0;padding-top:12px;box-shadow:inset 0 -6px 0 rgba(0,0,0,0.03)}
-  .hands{height:8px;background:#ffecd6;border-radius:6px;width:36px;position:absolute;top:46px;left:-18px;transform:rotate(-12deg)}
-  .hands.r{left:auto;right:-18px;transform:rotate(12deg)}
-  /* speech */
-  .speech{position:absolute;left:28%;top:6%;background:#fff;border-radius:12px;padding:12px 14px;max-width:58%;box-shadow:0 8px 20px rgba(11,59,44,0.08);font-weight:600}
-  .speech small{display:block;font-weight:500;color:#2d6b4f;font-size:13px;margin-top:6px}
-  /* animation */
-  .kid{animation:bounce 3s ease-in-out infinite}
-  @keyframes bounce{
-    0%{transform:translateY(0)}
-    50%{transform:translateY(-10px)}
-    100%{transform:translateY(0)}
-  }<svg width="200" height="200">
-  <circle cx="50" cy="100" r="30" fill="blue">
-    <animate attributeName="cx" from="50" to="150" dur="2s" repeatCount="indefinite"/>
-  </circle>
-</svg><div class="bola"></div>
-
-<style>
-.bola {
-  width: 50px;
-  height: 50px;
-  background: red;
-  border-radius: 50%;
-  animation: lompat 1s infinite;
-}
-@keyframes lompat {
-  0% { transform: translateY(0px); }
-  50% { transform: translateY(-40px); }
-  100% { transform: translateY(0px); }
-}
-</style>
-  /* next button */
-  .controls{margin-top:18px}
-  .btn{display:inline-block;background:var(--accent);color:#fff;padding:10px 18px;border-radius:10px;text-decoration:none;font-weight:700}
-  /* responsive */
-  @media (max-width:480px){
-    .speech{left:8%;top:4%;max-width:82%}
-    .kid{transform:scale(.86)}
-  }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kartun Islami Anak – Menghormati Orang Tua</title>
 </head>
-<body>
-  <main class="stage">
-    <header>Kartun Islami Anak — Episode 1</header>
+<body style="text-align:center; font-family:Arial;">
+  <h1>Kartun Islami Anak</h1>
+  <h2>Menghormati Orang Tua</h2>
 
-    <section class="screen" aria-label="Layar Kartun">
-      <div class="speech" id="speech">Assalamu'alaikum, adik! Yuk belajar soal <strong>toleransi</strong> hari ini. <small>— Koko Si Kancil</small></div>
+  <iframe width="100%" height="315"
+    src="https://www.youtube.com/embed/QnN0YB7tqzQ"
+    title="Kartun Islami Anak"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+  </iframe>
 
-      <div style="height:20px"></div>
-      <div class="kid" role="img" aria-label="Karakter anak">
-        <div class="head">
-          <div class="eye left"></div>
-          <div class="eye right"></div>
-          <div class="smile" aria-hidden="true"></div>
-        </div>
-        <div class="body">
-          <div class="hands"></div>
-          <div class="hands r"></div>
-        </div>
-      </div>
-
-      <div class="ground" aria-hidden="true"></div>
-    </section>
-
-    <div class="controls">
-      <a class="btn" id="next">Lanjut Cerita</a>
-    </div>
-  </main>
-<div class="bola"></div>
-
-<style>
-.bola {
-  width: 50px;
-  height: 50px;
-  background: red;
-  border-radius: 50%;
-  animation: lompat 1s infinite;
-}
-
-@keyframes lompat {
-  0% { transform: translateY(0px); }
-  50% { transform: translateY(-60px); }
-  100% { transform: translateY(0px); }
-}
-</style>
-<script>
-  // kecil: alur dialog + perubahan teks (bisa diperluas jadi episode)
-  const lines = [
-    "Assalamu'alaikum, adik! Yuk belajar soal <strong>toleransi</strong> hari ini. <small>— Koko Si Kancil</small>",
-    "Toleransi artinya saling menghormati dan saling menolong. <small>— Pelajaran 1</small>",
-    "Kalau teman sedih, kita beri pelukan dan bantu. Itulah akhlak yang indah. <small>— Penutup</small>"
-  ];
-  let i = 0;
-  const speech = document.getElementById('speech');
-  document.getElementById('next').addEventListener('click', ()=>{
-    i = (i+1) % lines.length;
-    speech.innerHTML = lines[i];
-  });
-
-  // autoplay suara singkat (opsional) - kalau mau tambahkan file audio
-</script>
+  <p style="margin-top:20px;">
+    Dibuat oleh Atep – DepStudio<br>
+    Konten edukasi Islami untuk anak-anak
+  </p>
 </body>
 </html>
